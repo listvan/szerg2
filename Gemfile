@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.11'
-
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -13,6 +12,10 @@ group :assets do
   gem 'therubyracer', '>= 0.11', :platforms => :ruby
   gem 'uglifier'
   gem 'twitter-bootstrap-rails'
+end
+
+group :production, :staging do
+  gem "pg"
 end
 
 #group :test, :cucumber do
