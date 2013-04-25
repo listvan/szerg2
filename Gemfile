@@ -15,29 +15,29 @@ group :assets do
   gem 'twitter-bootstrap-rails'
 end
 
-group :test, :cucumber do
-  gem 'factory_girl_rails'
-  gem 'rspec-rails', '>= 2.12.0'
-  #gem 'capybara'
-  gem 'shoulda-matchers'
-  gem 'timecop'
-  gem 'database_cleaner'
-  gem 'simplecov', '~>0.4.0'
-  gem 'better_errors'
-  gem 'binding_of_caller'
+#group :test, :cucumber do
+#  gem 'factory_girl_rails'
+#  gem 'rspec-rails', '>= 2.12.0'
+#  #gem 'capybara'
+#  gem 'shoulda-matchers'
+#  gem 'timecop'
+#  gem 'database_cleaner'
+#  gem 'simplecov', '~>0.4.0'
+#  gem 'better_errors'
+#  gem 'binding_of_caller'
+#
+#  gem 'guard'
+#  gem 'guard-bundler'
+#  gem 'guard-rails'
+#  gem 'guard-rspec'
+#  gem 'guard-cucumber'
+#end
 
-  gem 'guard'
-  gem 'guard-bundler'
-  gem 'guard-rails'
-  gem 'guard-rspec'
-  gem 'guard-cucumber'
-end
-
-group :cucumber do
-  gem 'cucumber-rails', '>= 1.3.0'
-  #gem 'capybara-firebug'
-  gem 'guard-cucumber'
-end
+#group :cucumber do
+#  gem 'cucumber-rails', '>= 1.3.0'
+#  #gem 'capybara-firebug'
+#  gem 'guard-cucumber'
+#end
 
 # Gems used only for assets and not required
 # in production environments by default.
