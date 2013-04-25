@@ -1,4 +1,10 @@
 Szerg2::Application.routes.draw do
+  resources :users do
+    resources :uploads
+  end
+  root to: 'users#new'
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

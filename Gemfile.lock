@@ -41,6 +41,7 @@ GEM
     bluecloth (2.2.0)
     bootstrap-sass (2.3.1.0)
       sass (~> 3.2)
+    bootstrap_form (0.3.2)
     builder (3.0.4)
     cancan (1.6.9)
     capybara (2.1.0)
@@ -271,6 +272,7 @@ DEPENDENCIES
   binding_of_caller
   bluecloth
   bootstrap-sass (>= 2.3.0.0)
+  bootstrap_form
   cancan (>= 1.6.9)
   capybara
   capybara-firebug

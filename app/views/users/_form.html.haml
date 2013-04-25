@@ -1,0 +1,11 @@
+= bootstrap_form_for(@user, html: {class: 'form-horizontal'}, help: :block) do |f|
+  .column.one-third.left
+    .relative.fullwidth.left
+      .tab.top-side-bordered.top-border-radius.left.white
+        %h3.heading-tab.top-border-radius=  'Adatok megadása'
+    .white.box.bordered.top-left-square.left
+      = f.text_field :name
+      = f.password_field :password
+      .margin-top
+        %button.btn.btn-success.green-gradient{type: :submit}="Belép"
+      .clear

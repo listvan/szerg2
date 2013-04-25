@@ -1,0 +1,10 @@
+%h1 Fájl kiválasztása
+
+= bootstrap_form_for(@upload, url: user_uploads_path(params[:user_id]), html: {class: 'form-horizontal'}, help: :block) do |f|
+  .column.one-third.left
+    .white.box.bordered.top-left-square.left
+      = f.file_field :file
+
+      .margin-top
+        %button.btn.btn-success.green-gradient{type: :submit}="Feltölt"
+        = link_to 'Vissza', user_uploads_path(params[:user_id]), class: 'btn'

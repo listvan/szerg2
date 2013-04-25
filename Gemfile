@@ -50,6 +50,7 @@ gem 'sys-filesystem'
 gem 'rmagick', '2.13.1'
 gem 'riddle'
 gem 'bluecloth'
+gem 'bootstrap_form'
 
 gem 'kaminari'
 gem 'plupload-rails'

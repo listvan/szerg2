@@ -1,0 +1,22 @@
+%h2= "#{@user.name} felhasználó dokumentumai"
+
+%table.table
+  %tr
+    %th Név
+    %th Méret
+    %th File típus
+    %th Feltöltés dátuma
+    %th
+    %th
+
+  - @uploads.each do |upload|
+    %tr
+      %td= upload.name
+      %td= number_to_human_size(upload.size)
+      %td= upload.content_type
+      %td= l(upload.created_at, format: :long)
+      %td= link_to 'Letöltés', user_upload_path(@user, upload.id)
+      %td= link_to 'Törlés', user_upload_path(@user, upload), :method => :delete, :data => { :confirm => 'Biztos törölni kívánja??' }
+%br
+
+= link_to 'Új feltöltés', new_user_upload_path(params[:user_id]), class: 'btn'

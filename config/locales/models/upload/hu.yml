@@ -1,0 +1,23 @@
+hu:
+  activerecord:
+    attributes:
+      upload:
+        name:  "Név"
+        size: "Méret"
+        content_type: "File típus"
+
+  models:
+    upload:
+      notices:
+        successfully_created:     "%{identity_name} felhasználó sikeresen létrehozva %{identity_email} email címmel!"
+        successfully_updated:     "%{identity_name} felhasználó adatai sikeressen frissítve!"
+        successfully_inactivated: "%{identity_name} felhasználó sikeresen inaktívvá téve!"
+        successfully_reactivated: "%{identity_name} felhasználó sikeresen aktívvá téve!"
+
+      errors:
+        record_not_found:     "Nem található elem / %{exception}"
+        record_invalid:       "%{exception}"
+
+      status:
+        active:               "Aktív"
+        inactive:             "Inaktív"

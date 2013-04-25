@@ -1,0 +1,8 @@
+= bootstrap_form_for(@upload, url: user_uploads_path(params[:user_id]), html: {class: 'form-horizontal'}, help: :block) do |f|
+  .column.one-third.left
+    .white.box.bordered.top-left-square.left
+      = f.text_field :name
+
+      .margin-top
+        %button.btn.btn-success.green-gradient{type: :submit}="Belép"
+      .clear
