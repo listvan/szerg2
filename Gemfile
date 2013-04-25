@@ -18,7 +18,7 @@ end
 group :test, :cucumber do
   gem 'factory_girl_rails'
   gem 'rspec-rails', '>= 2.12.0'
-  gem 'capybara'
+  #gem 'capybara'
   gem 'shoulda-matchers'
   gem 'timecop'
   gem 'database_cleaner'
@@ -35,7 +35,7 @@ end
 
 group :cucumber do
   gem 'cucumber-rails', '>= 1.3.0'
-  gem 'capybara-firebug'
+  #gem 'capybara-firebug'
   gem 'guard-cucumber'
 end
 
