@@ -15,7 +15,7 @@ group :assets do
   gem 'twitter-bootstrap-rails'
 end
 
-group :development, :test, :cucumber do
+group :test, :cucumber do
   gem 'factory_girl_rails'
   gem 'rspec-rails', '>= 2.12.0'
   gem 'capybara'
