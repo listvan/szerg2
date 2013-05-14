@@ -1,4 +1,2 @@
-elibrary
+Elte-szf2
 ========
-
-Test elibrary website
